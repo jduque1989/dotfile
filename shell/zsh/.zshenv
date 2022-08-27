@@ -18,13 +18,11 @@ _reverse_search() {
 zle -N _reverse_search
 bindkey '^r' _reverse_search
 
-alias speed="speedtest-cli"
 alias wp_download="wget https://wordpress.org/latest.zip"
 alias ll="ls -la"
 alias du="du -sh *"
 alias ls="exa"
 alias python="python3.9"
-alias monitor="python ~/Nextcloud/CODING/Python/speedtest/monitor.py"
 alias clr="clear"
 alias shut="sudo shutdown -h now"
 alias internet="python ~/Documents/Documents/Code/py/internet.py"
