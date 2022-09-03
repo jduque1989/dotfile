@@ -19,10 +19,17 @@ zle -N _reverse_search
 bindkey '^r' _reverse_search
 
 alias wp_download="wget https://wordpress.org/latest.zip"
-alias ll="ls -la"
-alias du="du -sh *"
-alias ls="exa"
-alias python="python3.9"
 alias clr="clear"
 alias shut="sudo shutdown -h now"
+
+#General Apps
 alias internet="python ~/Nextcloud/Sync/CODING/Python/speedtest/monitor.py"
+alias v="nvim"
+alias python="python3.9"
+
+#General aliases
+alias ..="cd .."
+alias h="cd ~/"
+alias du="du -sh *"
+alias ls="exa"
+alias ll="ls -la"
