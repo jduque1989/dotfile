@@ -21,6 +21,7 @@ bindkey '^r' _reverse_search
 alias wp_download="wget https://wordpress.org/latest.zip"
 alias clr="clear"
 alias shut="sudo shutdown -h now"
+alias coding="cd Nextcloud/Sync/CODING"
 
 #General Apps
 alias internet="python ~/Nextcloud/Sync/CODING/Python/speedtest/monitor.py"
