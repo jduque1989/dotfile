@@ -1,8 +1,7 @@
 # Add Homebrew's executable directory to the front of the PATH
 export PATH=/opt/homebrew/bin:$PATH
 source ~/.zim/zim_config.zsh
-
-
+pfetch
 # Function to use fzf recursevly
 _display_message(){
   dirtomove=$(ls | fzf)
