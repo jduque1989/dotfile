@@ -2,7 +2,7 @@
 export PATH=/opt/homebrew/bin:$PATH
 source ~/.zim/zim_config.zsh
 # neofetch
-pfetch
+# pfetch
 #Function to use fzf recursevly
 _display_message(){
   dirtomove=$(ls | fzf) 
@@ -10,7 +10,6 @@ _display_message(){
 }
 zle -N _display_message
 bindkey '^h' _display_message
-
 
 _reverse_search() {
   local selected_command=$(fc -rl 1 | awk '{$1="";print substr($0,2)}' | fzf)
