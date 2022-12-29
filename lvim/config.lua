@@ -66,11 +66,11 @@ lvim.keys.normal_mode["<C-s>"] = ":w<cr>"
 lvim.builtin.alpha.active = true
 lvim.builtin.alpha.mode = "dashboard"
 lvim.builtin.terminal.active = true
-lvim.builtin.nvimtree.setup.view.side = "left"
-lvim.builtin.nvimtree.setup.renderer.icons.show.git = false
+lvim.builtin.nvime.setup.view.side = "left"
+lvim.builtin.nvime.setup.renderer.icons.show.git = false
 
 -- if you don't want all the parsers change this to a table of the ones you want
-lvim.builtin.treesitter.ensure_installed = {
+lvim.builtin.esitter.ensure_installed = {
   "bash",
   "c",
   "javascript",
@@ -83,10 +83,11 @@ lvim.builtin.treesitter.ensure_installed = {
   "rust",
   "java",
   "yaml",
+  "marksman"
 }
 
-lvim.builtin.treesitter.ignore_install = { "haskell" }
-lvim.builtin.treesitter.highlight.enable = true
+lvim.builtin.esitter.ignore_install = { "haskell" }
+lvim.builtin.esitter.highlight.enable = true
 
 -- generic LSP settings
 
@@ -141,7 +142,7 @@ lvim.builtin.treesitter.highlight.enable = true
 --     -- these cannot contain whitespaces, options such as `--line-width 80` become either `{'--line-width', '80'}` or `{'--line-width=80'}`
 --     extra_args = { "--print-with", "100" },
 --     ---@usage specify which filetypes to enable. By default a providers will attach to all the filetypes it supports.
---     filetypes = { "typescript", "typescriptreact" },
+--     filetypes = { "typescript", "typescripact" },
 --   },
 -- }
 
@@ -185,7 +186,7 @@ lvim.builtin.treesitter.highlight.enable = true
 -- vim.api.nvim_create_autocmd("FileType", {
 --   pattern = "zsh",
 --   callback = function()
---     -- let treesitter use bash highlight for zsh files as well
---     require("nvim-treesitter.highlight").attach(0, "bash")
+--     -- let esitter use bash highlight for zsh files as well
+--     require("nvim-esitter.highlight").attach(0, "bash")
 --   end,
 -- })
