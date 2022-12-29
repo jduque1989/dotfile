@@ -14,3 +14,4 @@ PS1+="\[${green}\]\W";
 # PS1+="\n";
 PS1+="\[${white}\] \$ \[${reset}\]";
 export PS1;
+. "$HOME/.cargo/env"

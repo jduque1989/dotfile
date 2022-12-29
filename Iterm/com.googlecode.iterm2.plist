@@ -6,6 +6,8 @@
 	<true/>
 	<key>Command</key>
 	<string></string>
+	<key>Control</key>
+	<integer>1</integer>
 	<key>Custom Color Presets</key>
 	<dict>
 		<key>CodelyTV</key>
@@ -950,8 +952,16 @@
 	<false/>
 	<key>HideTab</key>
 	<true/>
+	<key>Hotkey</key>
+	<true/>
+	<key>HotkeyChar</key>
+	<integer>116</integer>
+	<key>HotkeyCode</key>
+	<integer>17</integer>
 	<key>HotkeyMigratedFromSingleToMulti</key>
 	<true/>
+	<key>HotkeyModifiers</key>
+	<integer>786721</integer>
 	<key>NeverWarnAboutShortLivedSessions_E2ADFBF1-21C2-46C4-AFEC-B3C70CDAAD80</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_E2ADFBF1-21C2-46C4-AFEC-B3C70CDAAD80_selection</key>
@@ -1206,7 +1216,7 @@
 			<key>Blur</key>
 			<true/>
 			<key>Blur Radius</key>
-			<real>11.529413231382978</real>
+			<real>10.100797872340426</real>
 			<key>Bold Color</key>
 			<dict>
 				<key>Alpha Component</key>
@@ -1824,7 +1834,7 @@
 			<key>Terminal Type</key>
 			<string>xterm-256color</string>
 			<key>Transparency</key>
-			<real>0.20460333440721654</real>
+			<real>0.054995013297872354</real>
 			<key>Underline Color</key>
 			<dict>
 				<key>Alpha Component</key>
