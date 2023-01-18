@@ -4,7 +4,7 @@ export PATH="$HOME/.local/bin":$PATH
 export PATH="/opt/homebrew/bin":$PATH
 source ~/.zim/zim_config.zsh
 # neofetch
-pfetch
+# pfetch
 #Function to use fzf recursevly
 _display_message(){
   dirtomove=$(ls | fzf) 
@@ -29,7 +29,10 @@ alias shut="sudo shutdown -h now"
 alias internet="python ~/Nextcloud/Sync/CODING/Python/speedtest/monitor.py"
 alias v="nvim"
 alias lv="lvim"
-alias python="python3.9"
+alias linode="ssh -i ~/.ssh/linode2 juanduque@170.187.153.8"
+alias vpn-up="sudo wg-quick up wg0"
+alias vpn-down="sudo wg-quick down wg0"
+alias python="python3.11"
 
 #General aliases
 alias ..="cd .."
@@ -37,5 +40,5 @@ alias h="cd ~/"
 alias du="du -sh *"
 alias ls="exa"
 alias ll="ls -la"
-alias co="cd ~/Nextcloud/Sync/CODING"
+alias co="cd ~/Documents/Code/"
 . "$HOME/.cargo/env"

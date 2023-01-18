@@ -66,7 +66,7 @@ lvim.keys.normal_mode["<C-s>"] = ":w<cr>"
 lvim.builtin.alpha.active = true
 lvim.builtin.alpha.mode = "dashboard"
 lvim.builtin.terminal.active = true
-lvim.builtin.nvime.setup.view.side = "left"
+lvim.builtin.nvime.setup.view.side = "right"
 lvim.builtin.nvime.setup.renderer.icons.show.git = false
 
 -- if you don't want all the parsers change this to a table of the ones you want
@@ -83,7 +83,7 @@ lvim.builtin.esitter.ensure_installed = {
   "rust",
   "java",
   "yaml",
-  "marksman"
+
 }
 
 lvim.builtin.esitter.ignore_install = { "haskell" }
