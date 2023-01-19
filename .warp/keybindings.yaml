@@ -1,0 +1,4 @@
+---
+"workspace:activate_prev_tab": shift-cmd-J
+"input:toggle_natural_language_command_search": ctrl-i
+"workspace:activate_next_tab": shift-cmd-L

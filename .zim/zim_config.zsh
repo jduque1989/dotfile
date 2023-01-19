@@ -1,0 +1,1 @@
+/Users/juandavidduquea/.dotfiles/shell/zsh/zim_config.zsh
